@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +44,7 @@ export const ServicesCard = styled.div`
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
-  padding: 30px;
+  padding: 0px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0, 2);
   transition: all 0.2s ease-in-out;
 
@@ -69,6 +69,14 @@ export const ServicesH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+`;
+
+export const ServicesSubtitle = styled.p`
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: -40px;
+  margin-bottom: 64px;
 `;
 
 export const ServicesH2 = styled.h2`

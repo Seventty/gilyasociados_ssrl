@@ -1,5 +1,7 @@
 import React, { useState, useRef } from "react";
 import Video from "../../videos/video.mp4";
+import Video2 from "../../videos/video-2.mp4";
+import Video3 from "../../videos/video-3.mp4";
 import { Button } from "../ButtonElements";
 import {
   HeroContainer,
@@ -17,7 +19,7 @@ const HeroSection = () => {
   const [hover, setHover] = useState(false);
   const videoRef = useRef(null);
 
-  const videoSources = [Video];
+  const videoSources = [Video, Video2, Video3];
   let videoSource = videoSources[0];
 
   let index = 1;
@@ -53,7 +55,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>¡Empieza tu Consultoría Financiera hoy!</HeroH1>
-        <HeroP>Descubre con nosotros los planes de consultoría financiera y como podemos guíarte al progreso financiero que anhelas.</HeroP>
+        <HeroP>
+          Descubre con nosotros los planes de consultoría financiera y como
+          podemos guíarte al progreso financiero que anhelas.
+        </HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"
@@ -67,7 +72,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Empieza hoy {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

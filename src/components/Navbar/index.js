@@ -90,7 +90,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Contactate
+                  Contáctanos
                 </NavLinks>
               </NavItem>
             </NavMenu>

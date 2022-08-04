@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#0f0f0f" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#1e2124" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
