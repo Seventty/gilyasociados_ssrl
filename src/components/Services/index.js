@@ -3,6 +3,7 @@ import Icon1 from "../../images/svg-4.svg";
 import Icon2 from "../../images/svg-5.svg";
 import Icon3 from "../../images/svg-6.svg";
 import Icon4 from "../../images/svg-7.svg";
+import Icon5 from "../../images/svg-8.svg";
 
 import {
   ServicesContainer,
@@ -69,12 +70,12 @@ const Services = () => {
           <ServicesP>• Evaluación de Recursos Humanos</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon4} />
+          <ServicesIcon src={Icon5} />
           <ServicesH2>Legales</ServicesH2>
           <ServicesP>• Constitución de compañías</ServicesP>
           <ServicesP>• Incorporación de ONG</ServicesP>
           <ServicesP>
-            • Asesoría en registro de nombre comercial y de marca.{" "}
+            • Asesoría en registro de nombre comercial y de marca.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
