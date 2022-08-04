@@ -6,14 +6,14 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #581845;
+  background: #000;
 
   @media screen and (max-width: 768px) {
-    height: 2100px;
+    height: 1100px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 2000px;
+    height: 1300px;
   }
 `;
 
@@ -44,7 +44,7 @@ export const ServicesCard = styled.div`
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
-  padding-bottom: 1rem;
+  padding: 0px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0, 2);
   transition: all 0.2s ease-in-out;
 

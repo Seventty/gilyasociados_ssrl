@@ -34,11 +34,11 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#FFC947" }}>
+      <IconContext.Provider value={{ color: "#01bf71" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Gil&Asociados
+              Gil<span style={{color:"#01bf71"}}>&</span>Asociados
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -83,14 +83,26 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="signup"
+                  to="advisors"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Contáctanos
+                  Asesores
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Contacto
                 </NavLinks>
               </NavItem>
             </NavMenu>

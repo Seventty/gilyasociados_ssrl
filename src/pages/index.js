@@ -3,10 +3,12 @@ import HeroSection from "../components/HeroSection";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import InfoSection from "../components/InfoSection";
+import Advisors from "../components/Advisors";
+import Contact from "../components/Contact/Contact";
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree,
+  homeObjThree
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
@@ -26,7 +28,8 @@ const Home = () => {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Services />
-      <InfoSection {...homeObjThree} />
+      <Advisors {...homeObjThree}/>
+      <Contact/>
       <Footer />
     </>
   );

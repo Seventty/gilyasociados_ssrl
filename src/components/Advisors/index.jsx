@@ -1,4 +1,5 @@
 import React from "react";
+// import Faces from "./Faces";
 // import { Button } from "../ButtonElements";
 
 import {
@@ -12,28 +13,23 @@ import {
   Heading,
   Subtitle,
   BtnWrap,
-  ImgWrap,
-  Img,
 } from "./InfoElements";
 
 const InfoSection = ({
   lightBg,
-  id,
   imgstart,
   topLine,
   headline,
   lightText,
   darkText,
   description,
-  img,
-  alt,
 /*   primary,
   dark,
   dark2, */
 }) => {
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <InfoContainer lightBg={lightBg} id="advisors">
         <InfoWrapper>
           <InfoRow imgstart={imgstart}>
             <Column1>
@@ -46,9 +42,9 @@ const InfoSection = ({
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>
-                <Img src={img} alt={alt} />
-              </ImgWrap>
+            <div style={{color: "black"}}>
+              <h4>Here will be the Faces slider</h4>
+            </div>
             </Column2>
           </InfoRow>
         </InfoWrapper>

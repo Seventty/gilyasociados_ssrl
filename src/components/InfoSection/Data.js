@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "Gil Y ASOCIADOS MAGISTER FINANCIERO",
   description:
     "Es una empresa fundada por el Señor Carlos Gil de Luna, con más de 16 años de experiencia en sus diferentes áreas de negocios, dedicada al servicio de calidad, compromiso y lealtad total con cada uno de sus clientes. Actualmente esta cuenta con diversos departamentos a fin de lograr la óptima organización de cada empresa, estos incluyen: Asesoría Financiera, Impositiva y del Área de Gestión Humana.",
-  buttonLabel: "Find out !",
+  buttonLabel: "",
   imgstart: false,
   img: require("../../images/svg-1.svg").default,
   alt: "Camping",
@@ -25,7 +25,7 @@ export const homeObjTwo = {
   headline: "Los beneficios hablan por si mismos!",
   description:
     "Contando con numerosos clientes en la zona Este del país. Teniendo como filosofía principal el seguimiento personalizado del cliente y la guía de Dios en cada decisión. Este estilo de trabajo ha producido grandes resultados, dando a este grupo financiero una tasa anual de crecimiento de un 65% respectivo al volumen de Clientes. Nuestro lema es “Ofrecemos Resultados”.",
-  buttonLabel: "Learn More",
+  buttonLabel: "",
   imgstart: true,
   img: require("../../images/svg-2.svg").default,
   alt: "Cookie",
@@ -36,18 +36,18 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: "signup",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transactions with zero fees",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Conoce nuestros asesores",
+  headline: "Conoce los rostros que conforman nuestros mejores servicios de Asesoría Financiera.",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
-  buttonLabel: "Get started",
+    "Nuestra empresa cuenta con un conjunto de profesionales altamente capacitados en las áreas de Asesoría, Contabilidad, Administración y Auditoría. Creemos firmemente que un equipo feliz resultará en clientes complacidos!",
+  buttonLabel: "",
   imgstart: false,
   img: require("../../images/svg-3.svg").default,
   alt: "Computer",
-  dark: true,
+  dark: false,
   primary: true,
-  darkText: false,
+  darkText: true,
 };
